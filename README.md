@@ -1,2 +1,2 @@
 # mini-twitter
-HTML
+HTML & CSS
