@@ -7,49 +7,97 @@
   /* Left and right column */
   .column.side {
     width: 25%;
+    float: left; 
     ;
   }
   .column.right {
-    width: 15;
+    float: right;
+    width: 25%;
   }
   
   /* Middle column */
   .column.middle {
-    width: 50%;
+    width: 40%;
     margin-bottom: 20px;
   }
   body {
-      background-color: rgb(244, 243, 247);
-      color: rgb(7, 7, 7);
+      background-color: rgb(37, 32, 32);
+      color: white;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .hr.new1 {
-      border-top: 1px solid blue;
+      border-top: 1px solid gray;
+      width: 578px;
+      left: 50rem;
+      display:block;
+      content:"";
   }
   textarea {
-    background-color: rgb(165, 196, 196);
+    background-color: rgb(49, 46, 46);
     border: 2px;
-    border-radius: 8px;
+    border-radius: 14px;
   }
   button {
-    background-color: rgb(149, 149, 175);
-    border-radius: 15px;
-    border-width: 2px;
-    color:beige;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 9px;
+    background-color: rgb(231, 231, 18);
   }
-/*.trends {
-  border-radius: 6px;
-  padding: 3px;
-  background-color: white;
-  margin-top: 20px;}*/
+  
+  button:hover {
+  border: none;
+  border-inline-style: solid;
+}
+
 #search{
-  background-color: rgb(181, 226, 226);
-  border-radius: 100px;
-  border: 500px;
-  border-width: 30px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background-color: rgb(48, 44, 44);
+  
+}
+.one{
+  display: grid;
+  color: white;
 }
 .one:hover {
   color:blue;
 }
-.two {
-  text-align: left;
+.icons {
+  justify-content: space-between;
+  display:flex;
+  padding: 10px 10px 10px 10px;
+  
 }
+footer{
+  padding-top: 220px;
+}
+.test { 
+  height: 770px; 
+  width:0px;
+  border-left:1px solid gray;
+  content:"";
+  display:block;
+  left:25rem;
+  top: 0rem;
+  position:absolute;
+  }
+  .rest {
+    height: 770px; 
+    width:0px;
+    border-right:1px solid gray;
+    content:"";
+    display:block;
+    right:31rem;
+    top: 0rem;
+    position:absolute;
+  }
